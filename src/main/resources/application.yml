@@ -1,0 +1,25 @@
+spring:
+#  security:
+#    oauth2:
+#      client:
+#        registration:
+#          github:
+#            client-id: Iv1.88d6aab5af58558e
+#            client-secret: fc38eaa319290b0bbd18fe624995cd5d7303b9ef
+  datasource:
+    url: jdbc:postgresql://172.24.80.1:5432/quotify
+    username: admin
+    password: admin
+  jpa:
+    hibernate:
+      dialect: org.hibernate.dialect.PostgreSQLDialect
+      ddl-auto: update  # Adjust as needed (update, create, create-drop)
+      show-sql: true
+
+springdoc:
+  ui:
+    persistAuthorization: true
+  api-docs:
+    path: /quotify/swagger
+  swagger-ui:
+    path: /quotify/swagger/swagger-ui.html
