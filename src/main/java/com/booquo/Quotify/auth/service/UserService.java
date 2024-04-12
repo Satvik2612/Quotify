@@ -1,7 +1,7 @@
-package com.booquo.Quotify.service;
+package com.booquo.Quotify.auth.service;
 
-import com.booquo.Quotify.entity.UserEntity;
-import com.booquo.Quotify.repo.UserRepo;
+import com.booquo.Quotify.auth.entity.UserEntity;
+import com.booquo.Quotify.auth.repo.UserRepo;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;

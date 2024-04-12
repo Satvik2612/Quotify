@@ -1,4 +1,4 @@
-package com.booquo.Quotify.entity;
+package com.booquo.Quotify.auth.entity;
 
 public enum Role {
     USER,

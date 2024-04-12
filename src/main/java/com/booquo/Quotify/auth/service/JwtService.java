@@ -1,6 +1,6 @@
-package com.booquo.Quotify.service;
+package com.booquo.Quotify.auth.service;
 
-import com.booquo.Quotify.entity.UserEntity;
+import com.booquo.Quotify.auth.entity.UserEntity;
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.io.Decoders;

@@ -1,8 +1,8 @@
-package com.booquo.Quotify.service;
+package com.booquo.Quotify.auth.service;
 
 
-import com.booquo.Quotify.entity.UserEntity;
-import com.booquo.Quotify.model.UserView;
+import com.booquo.Quotify.auth.entity.UserEntity;
+import com.booquo.Quotify.auth.model.UserView;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;

@@ -1,6 +1,6 @@
-package com.booquo.Quotify.model;
+package com.booquo.Quotify.auth.model;
 
-import com.booquo.Quotify.entity.Role;
+import com.booquo.Quotify.auth.entity.Role;
 import lombok.Getter;
 import lombok.Setter;
 

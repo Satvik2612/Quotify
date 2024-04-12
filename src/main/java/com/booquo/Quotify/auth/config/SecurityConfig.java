@@ -1,7 +1,7 @@
-package com.booquo.Quotify.config;
+package com.booquo.Quotify.auth.config;
 
 
-import com.booquo.Quotify.service.UserService;
+import com.booquo.Quotify.auth.service.UserService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

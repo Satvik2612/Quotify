@@ -1,8 +1,8 @@
-package com.booquo.Quotify.config;
+package com.booquo.Quotify.auth.config;
 
 
-import com.booquo.Quotify.service.JwtService;
-import com.booquo.Quotify.service.UserService;
+import com.booquo.Quotify.auth.service.JwtService;
+import com.booquo.Quotify.auth.service.UserService;
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServletRequest;

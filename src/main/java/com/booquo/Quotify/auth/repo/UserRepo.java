@@ -1,6 +1,6 @@
-package com.booquo.Quotify.repo;
+package com.booquo.Quotify.auth.repo;
 
-import com.booquo.Quotify.entity.UserEntity;
+import com.booquo.Quotify.auth.entity.UserEntity;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;

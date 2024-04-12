@@ -1,7 +1,7 @@
-package com.booquo.Quotify.controller;
+package com.booquo.Quotify.auth.controller;
 
-import com.booquo.Quotify.model.UserView;
-import com.booquo.Quotify.service.AuthenticationService;
+import com.booquo.Quotify.auth.model.UserView;
+import com.booquo.Quotify.auth.service.AuthenticationService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;
